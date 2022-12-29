@@ -1,4 +1,5 @@
 letmapped()
+document.getElementById("done").innerText=localStorage.getItem("dones")
 
 function del(i){
     console.log(i)
